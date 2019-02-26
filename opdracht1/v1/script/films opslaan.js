@@ -10,10 +10,10 @@ var delButton2 = document.querySelector(.del2);
 
 var favoButton2 = document.querySelector(.favoButton2);
 
-delButton1.addEventListener'click', event => favoFilm1.classList.remove('open');
+delButton1.addEventListener('click', function() {favoFilm1.style.opacity = 0.0});
 
-delButton2.addEventListener'click', event => favoFilm2.classList.remove('open');
+delButton2.addEventListener('click', function() {favoFilm2.style.opacity = 0.0});
 
-favoButton1.addEventListener'click', event => favoFilm1.classList.add('open');
+favoButton1.addEventListener('click', function() {favoFilm1.style.opacity = 1.0});
 
-favoButton2.addEventListener('click', event => favoFilm2.classList.add('open');
+favoButton2.addEventListener('click', function() {favoFilm2.style.opacity = 1.0});
