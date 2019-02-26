@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+body > section {
+    background-color: dimgrey;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2em;
+}
+section > h1 {
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 3em;
+}
+
+ul > li > img {
+    width: 10em;
+    height: 15em;
+}
+
+ul > li {
+    max-width: 10em;
+    text-align: center;
+    color: white;
+}
+
+section:nth-child(3) {
+    margin-top: 5em;
+    background-color: darkslategrey;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+section:nth-child(3) > ul > li:first-child {
+    display: none;
+}
+
+section:nth-child(3) > ul > li:nth-child(2) {
+    display: none;
+}
+
+.open {
+    display: block;
+}
